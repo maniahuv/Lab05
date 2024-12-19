@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": ["src"], // Chỉ định thư mục chứa mã nguồn
+    "java.outputDir": "bin", // Thư mục lưu file biên dịch
+    "java.errors.incompleteClasspath.severity": "ignore" // Bỏ qua cảnh báo classpath
+}
+
+{
+    "java.project.referencedLibraries": [
+      "D:\Java\javafx-sdk-23.0.1\lib/*.jar"
+    ],
+    "javafx.module.path": "D:\Java\javafx-sdk-23.0.1\lib",
+    "javafx.add-modules": "javafx.controls,javafx.fxml"
+  }
+
+  "files.associations": {
+    "*.fxml": "xml"
+},
+"javafx.sceneBuilder.path": "C:\Users\dienn\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scene Builder"
